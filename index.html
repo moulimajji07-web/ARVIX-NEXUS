@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARVIX NEXUS 2026 | National Innovation Hackathon & ARVIX Launch</title>
+  <meta name="description" content="Official Briefing & Candidate Portal for ARVIX NEXUS 2026 - National Innovation Hackathon & ARVIX Launch. Theme: BUILD. INNOVATE. IMPACT." />
+  <!-- Google Fonts: Cinzel, Outfit, Space Mono for Tech Meets Tradition -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <!-- Grand Indian Cyber-Heritage Intro Animation Overlay -->
+  <div id="intro-overlay" class="intro-overlay">
+    <div class="intro-backdrop"></div>
+    <div class="intro-container">
+      <div class="intro-yantra">
+        <div class="yantra-ring-outer"></div>
+        <div class="yantra-ring-inner"></div>
+        <div class="yantra-core-flame">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+        </div>
+      </div>
+      <div class="intro-shloka">
+        <span>॥ विद्या ददाति विनयं विनयाद् याति पात्रताम् ॥</span>
+      </div>
+      <h1 class="intro-title">
+        <span class="intro-word-gold">ARVIX</span>
+        <span class="intro-word-white">NEXUS</span>
+        <span class="intro-year">2026</span>
+      </h1>
+      <p class="intro-subtitle">NATIONAL INNOVATION HACKATHON & ARVIX LAUNCH</p>
+      <div class="intro-collab-badge">
+        <span>AUCE Student Initiative • AU North Campus</span>
+      </div>
+      <div class="intro-progress-bar">
+        <div class="intro-progress-fill" id="intro-progress"></div>
+      </div>
+      <button class="btn-skip-intro" id="btn-skip-intro" onclick="dismissIntro()">
+        Enter Conclave <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Floating Golden Diya & Cyber Particle Matrix Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span>✨ <strong>ARVIX NEXUS 2026</strong> • National Innovation Hackathon & ARVIX Launch • Candidate Registrations Open • <strong><a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" style="color:var(--color-gold-light); text-decoration:underline;">Register Here</a></strong> 🪔</span>
+  </div>
+
+  <!-- Navigation Bar: Cyber Yantra meets Modern UI -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-cyber-mandala">
+          <div class="mandala-core"></div>
+          <div class="mandala-pulse"></div>
+          <div class="mandala-symbol"><i class="fa-solid fa-fire-flame-curved"></i></div>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">ARVIX NEXUS</span>
+          <div class="logo-meta">
+            <span class="meta-year">2026</span>
+            <span class="meta-dot">◈</span>
+            <span class="meta-sub">DEEP TECH CONCLAVE</span>
+          </div>
+        </div>
+      </a>
+      <nav class="nav-links" id="nav-menu">
+        <a href="#about" class="nav-link">About & Initiative</a>
+        <a href="#tracks" class="nav-link">Hackathon Tracks</a>
+        <a href="#awards" class="nav-link">Proposed Awards</a>
+        <a href="#guests" class="nav-link">Guests & Jury</a>
+        <a href="#agenda" class="nav-link">24-Hour Agenda</a>
+        <a href="#judging" class="nav-link">Judging Rubric</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-register-nav pulse-effect">
+          <i class="fa-solid fa-code"></i> Register Here
+        </a>
+      </nav>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section: Indic Heritage meets High-Tech Cyber Design (Timer Removed) -->
+    <section class="hero-section" id="hero">
+      <div class="cyber-yantra-badge">
+        <span class="yantra-bracket">[</span>
+        <span class="yantra-text"><i class="fa-solid fa-shield-halved"></i> National Innovation Hackathon & ARVIX Launch</span>
+        <span class="yantra-bracket">]</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="gold-gradient-text">ARVIX NEXUS</span>
+        <span class="sub-hero-title">2026</span>
+      </h1>
+
+      <div class="hero-slogan-box">
+        <div class="slogan-divider"></div>
+        <p class="hero-theme-tag">THEME: <strong>BUILD. INNOVATE. IMPACT.</strong></p>
+        <div class="slogan-divider"></div>
+      </div>
+
+      <p class="hero-tagline">
+        <em>"A National Platform for India’s Next Generation of Builders."</em>
+      </p>
+      <p class="hero-subphrase">
+        One platform. Thousands of ideas. Real problems. Real builders. Real impact.
+      </p>
+
+      <!-- Institutional Badges: AUCE Student Initiative -->
+      <div class="institution-badges">
+        <div class="inst-pill">
+          <i class="fa-solid fa-handshake"></i>
+          <div>
+            <span class="inst-label">Organising Initiative</span>
+            <strong>AUCE Student Initiative</strong>
+          </div>
+        </div>
+        <div class="inst-pill">
+          <i class="fa-solid fa-building-columns"></i>
+          <div>
+            <span class="inst-label">Venue</span>
+            <strong>AU North Campus, Andhra University, Visakhapatnam</strong>
+          </div>
+        </div>
+        <div class="inst-pill">
+          <i class="fa-solid fa-bolt-lightning"></i>
+          <div>
+            <span class="inst-label">Supported By</span>
+            <strong>ADMS E-Bike</strong>
+          </div>
+        </div>
+        <div class="inst-pill">
+          <i class="fa-solid fa-network-wired"></i>
+          <div>
+            <span class="inst-label">Aligned With</span>
+            <strong>Digital India & MeitY Priorities</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="hero-actions">
+        <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-primary-royal shine-btn">
+          <i class="fa-solid fa-ticket"></i> Candidate Registration Portal
+        </a>
+        <a href="#tracks" class="btn-secondary-royal">
+          <i class="fa-solid fa-microchip"></i> Explore Hackathon Tracks
+        </a>
+        <a href="#awards" class="btn-secondary-royal">
+          <i class="fa-solid fa-award"></i> View Proposed Awards
+        </a>
+      </div>
+
+      <!-- Quick Facts from Briefing Report -->
+      <div class="quick-highlights">
+        <div class="qh-item">
+          <i class="fa-solid fa-users-viewfinder"></i>
+          <div>
+            <strong>1 to 4 Members</strong>
+            <small>Team Size per entry</small>
+          </div>
+        </div>
+        <div class="qh-item">
+          <i class="fa-solid fa-calendar-check"></i>
+          <div>
+            <strong>24 Hours</strong>
+            <small>Event Duration</small>
+          </div>
+        </div>
+        <div class="qh-item">
+          <i class="fa-solid fa-rocket"></i>
+          <div>
+            <strong>ARVIX Labs Launch</strong>
+            <small>Official Brand & Project Unveil</small>
+          </div>
+        </div>
+        <div class="qh-item">
+          <i class="fa-solid fa-location-crosshairs"></i>
+          <div>
+            <strong>AU North Campus</strong>
+            <small>Andhra University, Visakhapatnam</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fast Registration Banner -->
+    <section class="portal-cta-strip">
+      <div class="strip-container">
+        <div class="strip-text">
+          <span class="strip-icon">📢</span>
+          <div>
+            <h4>Candidate Registration Portal Live</h4>
+            <p>University & college students, developers, designers, and innovators (Teams of 1–4) can submit entries now.</p>
+          </div>
+        </div>
+        <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-banner-link">
+          Register Here <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section: Clear Statement & Executive Summary -->
+    <section class="about-section" id="about">
+      <div class="section-header">
+        <span class="badge-sub">// 01 • Genesis & Student Initiative</span>
+        <h2 class="section-title">Who We Are & Executive Summary</h2>
+        <div class="tech-traditional-divider">
+          <span class="divider-line"></span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-glyph">❈</span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="section-intro">
+          ARVIX NEXUS 2026 is an inspiring student-driven movement initiated by students of Andhra University College of Engineering (AUCE) to foster grassroots innovation and technology leadership.
+        </p>
+      </div>
+
+      <div class="about-cards-grid">
+        <div class="royal-card featured">
+          <div class="featured-badge">Host Institution</div>
+          <div class="card-icon-frame">
+            <i class="fa-solid fa-handshake-angle"></i>
+          </div>
+          <h3>AUCE Student Initiative</h3>
+          <p>Organized as a dedicated <strong>student-led initiative from Andhra University College of Engineering (AUCE), Visakhapatnam</strong> to empower young builders and foster national-level innovation.</p>
+        </div>
+
+        <div class="royal-card">
+          <div class="card-icon-frame">
+            <i class="fa-solid fa-university"></i>
+          </div>
+          <h3>AU North Campus</h3>
+          <p>Hosted at <strong>AU North Campus, Andhra University, Visakhapatnam</strong> as our official hackathon venue, providing cutting-edge infrastructure and collaborative workspaces.</p>
+        </div>
+
+        <div class="royal-card">
+          <div class="card-icon-frame">
+            <i class="fa-solid fa-motorcycle"></i>
+          </div>
+          <h3>Supported by ADMS E-Bike</h3>
+          <p>Backed by industry supporter <strong>ADMS E-Bike</strong>, bringing sustainable mobility technologies and clean energy challenges to candidate builders.</p>
+        </div>
+      </div>
+
+      <!-- MeitY Alignment Card -->
+      <div class="meity-box">
+        <div class="meity-header">
+          <i class="fa-solid fa-satellite-dish"></i>
+          <div>
+            <h3>Aligned with National Digital India & MeitY Priorities</h3>
+            <p>Empowering young minds to solve critical national challenges through student-led technology building.</p>
+          </div>
+        </div>
+        <div class="meity-pillars">
+          <div class="pillar">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Citizen-focused Tech Solutions</span>
+          </div>
+          <div class="pillar">
+            <i class="fa-solid fa-brain"></i>
+            <span>Practical AI Building by Students</span>
+          </div>
+          <div class="pillar">
+            <i class="fa-solid fa-shield-virus"></i>
+            <span>Cybersecurity & Digital Trust</span>
+          </div>
+          <div class="pillar">
+            <i class="fa-solid fa-compass"></i>
+            <span>Mentorship & National Exposure</span>
+          </div>
+          <div class="pillar">
+            <i class="fa-solid fa-lightbulb"></i>
+            <span>Entrepreneurship & Startup Thinking</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hackathon Tracks Section -->
+    <section class="events-section" id="tracks">
+      <div class="section-header">
+        <span class="badge-sub">// 02 • Core Disciplines</span>
+        <h2 class="section-title">Official Hackathon Tracks</h2>
+        <div class="tech-traditional-divider">
+          <span class="divider-line"></span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-glyph">🪔</span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="section-intro">Participants (teams of 1 to 4) can build and present prototypes in any of the following 7 tracks.</p>
+      </div>
+
+      <div class="events-grid">
+        <!-- Track 1 -->
+        <article class="event-card">
+          <div class="event-header-art art-ai">
+            <span class="event-tag">Track 1</span>
+            <div class="card-art-icon"><i class="fa-solid fa-brain"></i></div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">AI & Intelligent Systems</h3>
+            <p class="event-desc">
+              AI agents, machine learning workflows, automated decision systems, computer vision, and generative intelligence for practical industrial use cases.
+            </p>
+            <div class="event-perk-badge"><i class="fa-solid fa-users"></i> Team: 1 to 4 Members</div>
+            <div class="event-footer">
+              <button class="btn-event-details" onclick="openTrackModal('ai')">View Details</button>
+              <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-event-reg">
+                Register <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Track 2 -->
+        <article class="event-card">
+          <div class="event-header-art art-gov">
+            <span class="event-tag">Track 2</span>
+            <div class="card-art-icon"><i class="fa-solid fa-landmark"></i></div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">GovTech & Digital India</h3>
+            <p class="event-desc">
+              Citizen services, vernacular accessibility, digital public infrastructure, transparent governance, and localized public welfare automation.
+            </p>
+            <div class="event-perk-badge"><i class="fa-solid fa-users"></i> Team: 1 to 4 Members</div>
+            <div class="event-footer">
+              <button class="btn-event-details" onclick="openTrackModal('govtech')">View Details</button>
+              <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-event-reg">
+                Register <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Track 3 -->
+        <article class="event-card">
+          <div class="event-header-art art-cyber">
+            <span class="event-tag">Track 3</span>
+            <div class="card-art-icon"><i class="fa-solid fa-shield-virus"></i></div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">Cybersecurity & Digital Trust</h3>
+            <p class="event-desc">
+              Data privacy, fraud prevention systems, digital identity verification, secure architectures, network threat detection, and cipher security.
+            </p>
+            <div class="event-perk-badge"><i class="fa-solid fa-users"></i> Team: 1 to 4 Members</div>
+            <div class="event-footer">
+              <button class="btn-event-details" onclick="openTrackModal('cyber')">View Details</button>
+              <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-event-reg">
+                Register <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Track 4 -->
+        <article class="event-card">
+          <div class="event-header-art art-fintech">
+            <span class="event-tag">Track 4</span>
+            <div class="card-art-icon"><i class="fa-solid fa-coins"></i></div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">FinTech & Financial Inclusion</h3>
+            <p class="event-desc">
+              Financial access for underserved populations, digital literacy tooling, inclusive micro-payments, smart accounting, and micro-credit systems.
+            </p>
+            <div class="event-perk-badge"><i class="fa-solid fa-users"></i> Team: 1 to 4 Members</div>
+            <div class="event-footer">
+              <button class="btn-event-details" onclick="openTrackModal('fintech')">View Details</button>
+              <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-event-reg">
+                Register <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Track 5 -->
+        <article class="event-card">
+          <div class="event-header-art art-health">
+            <span class="event-tag">Track 5</span>
+            <div class="card-art-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">HealthTech & Tele-Care</h3>
+            <p class="event-desc">
+              Technology for enhanced healthcare access, remote diagnostics, rural clinic coordination, emergency alerts, and affordable wellness devices.
+            </p>
+            <div class="event-perk-badge"><i class="fa-solid fa-users"></i> Team: 1 to 4 Members</div>
+            <div class="event-footer">
+              <button class="btn-event-details" onclick="openTrackModal('health')">View Details</button>
+              <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-event-reg">
+                Register <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Track 6 -->
+        <article class="event-card">
+          <div class="event-header-art art-infra">
+            <span class="event-tag">Track 6</span>
+            <div class="card-art-icon"><i class="fa-solid fa-leaf"></i></div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">Sustainability & Smart Infra</h3>
+            <p class="event-desc">
+              Clean energy, EV battery optimizations (backed by ADMS E-Bike insights), environmental monitoring, smart waste logistics, and smart cities.
+            </p>
+            <div class="event-perk-badge"><i class="fa-solid fa-users"></i> Team: 1 to 4 Members</div>
+            <div class="event-footer">
+              <button class="btn-event-details" onclick="openTrackModal('sustainability')">View Details</button>
+              <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-event-reg">
+                Register <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Track 7 -->
+        <article class="event-card featured-track">
+          <div class="event-header-art art-open">
+            <span class="event-tag">Open Track</span>
+            <div class="card-art-icon"><i class="fa-solid fa-lightbulb"></i></div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">Open Innovation</h3>
+            <p class="event-desc">
+              Any technological solution to a compelling real-world problem chosen by your team. Hardware, software, robotics, Web3, or cross-disciplinary solutions.
+            </p>
+            <div class="event-perk-badge"><i class="fa-solid fa-users"></i> Team: 1 to 4 Members</div>
+            <div class="event-footer">
+              <button class="btn-event-details" onclick="openTrackModal('open')">View Details</button>
+              <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="btn-event-reg">
+                Register <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Proposed Awards Section -->
+    <section class="awards-section" id="awards">
+      <div class="section-header">
+        <span class="badge-sub">// 03 • Recognition & Bounties</span>
+        <h2 class="section-title">Proposed Awards</h2>
+        <div class="tech-traditional-divider">
+          <span class="divider-line"></span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-glyph">🏆</span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="section-intro">
+          The organizing committee may provide the following awards for participating teams and builders:
+        </p>
+      </div>
+
+      <div class="awards-grid">
+        <div class="award-card">
+          <div class="award-icon"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+          <h4>Cash Prizes</h4>
+          <p>Cash bounties awarded to top-performing teams across hackathon tracks.</p>
+        </div>
+
+        <div class="award-card">
+          <div class="award-icon"><i class="fa-solid fa-certificate"></i></div>
+          <h4>Certificates</h4>
+          <p>Officially recognized certificates of achievement and participation.</p>
+        </div>
+
+        <div class="award-card">
+          <div class="award-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <h4>Internship Opportunities</h4>
+          <p>Direct interview and internship avenues with tech partners and startups.</p>
+        </div>
+      </div>
+
+      <!-- Official Disclaimer from Organizing Committee -->
+      <div class="award-disclaimer-box">
+        <i class="fa-solid fa-circle-info"></i>
+        <p><strong>Note on Award Structure:</strong> The final prize structure will depend upon sponsorships, institutional support, and the approved event budget.</p>
+      </div>
+    </section>
+
+    <!-- Dignitaries, Guests & Evaluation Officials Section (Slots to be Finalized) -->
+    <section class="guests-section" id="guests">
+      <div class="section-header">
+        <span class="badge-sub">// 04 • Dignitaries & Jury</span>
+        <h2 class="section-title">Guests & Evaluation Officials</h2>
+        <div class="tech-traditional-divider">
+          <span class="divider-line"></span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-glyph">🪔</span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="section-intro">
+          Distinguished leaders from Ministry (MeitY), academic leadership from Andhra University (AUCE), and industry are being invited. Final schedule and confirmed names will be updated shortly upon finalization.
+        </p>
+      </div>
+
+      <div class="guests-grid">
+        <!-- Guest Slot 1 -->
+        <div class="guest-card slot-empty">
+          <div class="guest-avatar-frame">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <span class="guest-status-badge">To Be Finalized</span>
+          <h4>Chief Guest / Ministry Representative</h4>
+          <p class="guest-role">Invited Official • MeitY / Digital India</p>
+          <span class="guest-note">Awaiting formal ministry schedule confirmation</span>
+        </div>
+
+        <!-- Guest Slot 2 -->
+        <div class="guest-card slot-empty">
+          <div class="guest-avatar-frame">
+            <i class="fa-solid fa-building-columns"></i>
+          </div>
+          <span class="guest-status-badge">To Be Finalized</span>
+          <h4>Institutional Patron (AUCE)</h4>
+          <p class="guest-role">Academic Leadership • Andhra University</p>
+          <span class="guest-note">AUCE SPOC & Faculty Delegation confirmation in progress</span>
+        </div>
+
+        <!-- Guest Slot 3 -->
+        <div class="guest-card slot-empty">
+          <div class="guest-avatar-frame">
+            <i class="fa-solid fa-scale-balanced"></i>
+          </div>
+          <span class="guest-status-badge">To Be Finalized</span>
+          <h4>Jury & Technical Evaluation Panel</h4>
+          <p class="guest-role">Industry Architects & DeepTech Founders</p>
+          <span class="guest-note">Jury evaluation panel slots being assigned per track</span>
+        </div>
+
+        <!-- Guest Slot 4 -->
+        <div class="guest-card slot-empty">
+          <div class="guest-avatar-frame">
+            <i class="fa-solid fa-motorcycle"></i>
+          </div>
+          <span class="guest-status-badge">To Be Finalized</span>
+          <h4>Industry Partner Representative</h4>
+          <p class="guest-role">Leadership • ADMS E-Bike & Partners</p>
+          <span class="guest-note">Industry mentor presence to be announced</span>
+        </div>
+
+        <!-- Guest Slot 5 -->
+        <div class="guest-card slot-empty">
+          <div class="guest-avatar-frame">
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+          <span class="guest-status-badge">To Be Finalized</span>
+          <h4>Keynote Speaker / DeepTech Mentor</h4>
+          <p class="guest-role">AI / Cyber / FinTech Innovation Specialist</p>
+          <span class="guest-note">Keynote addresses schedule to be finalized</span>
+        </div>
+      </div>
+
+      <div class="guest-schedule-notice">
+        <i class="fa-solid fa-clock"></i>
+        <span>Official confirmation of guests, evaluation jury names, and keynote schedules will be published once finalized with institution leadership.</span>
+      </div>
+    </section>
+
+    <!-- 24-Hour Agenda Section -->
+    <section class="agenda-section" id="agenda">
+      <div class="section-header">
+        <span class="badge-sub">// 05 • 24-Hour Hackathon Timeline</span>
+        <h2 class="section-title">24-Hour Event Agenda</h2>
+        <div class="tech-traditional-divider">
+          <span class="divider-line"></span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-glyph">🪔</span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="section-intro">Experience 24 hours of innovation, collaboration, and problem-solving at AU North Campus.</p>
+      </div>
+
+      <div class="agenda-container">
+        <!-- Day 1 -->
+        <div class="agenda-day-card">
+          <div class="agenda-day-header">
+            <span class="day-number">DAY 01</span>
+            <h3>Kickoff, Ideation & Development Sprint</h3>
+          </div>
+          <div class="agenda-activities">
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-id-badge"></i></div>
+              <div>
+                <strong>09:00 AM — Participant Registration & Check-in</strong>
+                <p>Arrival, verification desk, WiFi access setup, and team kit allocation.</p>
+              </div>
+            </div>
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-bullhorn"></i></div>
+              <div>
+                <strong>10:00 AM — Opening Ceremony & Hackathon Briefing</strong>
+                <p>Welcome address, guidelines, judging parameters, and conclave inauguration.</p>
+              </div>
+            </div>
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-puzzle-piece"></i></div>
+              <div>
+                <strong>11:00 AM — Problem Statement Release</strong>
+                <p>Official release of challenge problem statements across all hackathon tracks.</p>
+              </div>
+            </div>
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-users-gear"></i></div>
+              <div>
+                <strong>11:30 AM — Team Formation & Ideation</strong>
+                <p>Brainstorming, architectural design, scope defining, and roadmap finalization.</p>
+              </div>
+            </div>
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-utensils"></i></div>
+              <div>
+                <strong>01:00 PM — Lunch Break</strong>
+                <p>Networking and refreshments provided for all candidates.</p>
+              </div>
+            </div>
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-code"></i></div>
+              <div>
+                <strong>02:00 PM — Development Begins</strong>
+                <p>Official hacking begins. Intensive prototyping, coding, and engineering.</p>
+              </div>
+            </div>
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-clipboard-check"></i></div>
+              <div>
+                <strong>06:00 PM — Progress Review Checkpoint</strong>
+                <p>Mentor review, checkpoint guidance, and intermediate technical evaluations.</p>
+              </div>
+            </div>
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-fire"></i></div>
+              <div>
+                <strong>09:00 PM — Final Development Sprint</strong>
+                <p>Night development sprint, feature lockdown, and deployment testing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="agenda-day-card">
+          <div class="agenda-day-header">
+            <span class="day-number">DAY 02</span>
+            <h3>Submissions, Demonstrations & Awards</h3>
+          </div>
+          <div class="agenda-activities">
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-flag-checkered"></i></div>
+              <div>
+                <strong>09:00 AM — Project Submission Deadline</strong>
+                <p>Code freeze, repository submission, and presentation upload deadline.</p>
+              </div>
+            </div>
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-laptop-code"></i></div>
+              <div>
+                <strong>10:00 AM — Project Demonstrations & Judging</strong>
+                <p>Live candidate demonstrations and Q&A sessions before the evaluation jury.</p>
+              </div>
+            </div>
+            <div class="agenda-item">
+              <div class="item-bullet"><i class="fa-solid fa-trophy"></i></div>
+              <div>
+                <strong>10:30 AM — Results Announcement, Prize Distribution & Closing Ceremony</strong>
+                <p>Winner felicitations, cash prize awards, certificate distribution, and closing remarks.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="agenda-note"><em>Note: All activities are scheduled in Indian Standard Time (IST) at AU North Campus, Visakhapatnam.</em></p>
+    </section>
+
+    <!-- Judging Criteria -->
+    <section class="judging-section" id="judging">
+      <div class="section-header">
+        <span class="badge-sub">// 06 • Transparent Evaluation</span>
+        <h2 class="section-title">How Projects Will Be Judged</h2>
+        <div class="tech-traditional-divider">
+          <span class="divider-line"></span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-glyph">❈</span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="section-intro">Strictly weighted criteria ensures fairness, technical depth, and real-world applicability.</p>
+      </div>
+
+      <div class="rubric-grid">
+        <div class="rubric-card">
+          <div class="rubric-percentage">20%</div>
+          <h3>Innovation & Originality</h3>
+          <p>Uniqueness of the idea, creative problem-solving approach, and novelty compared to existing solutions.</p>
+        </div>
+        <div class="rubric-card">
+          <div class="rubric-percentage">20%</div>
+          <h3>Real-World Impact</h3>
+          <p>Relevance to societal or industrial problems, practical utility, and tangible benefit to end users.</p>
+        </div>
+        <div class="rubric-card">
+          <div class="rubric-percentage">20%</div>
+          <h3>Technical Implementation</h3>
+          <p>Code quality, architectural soundness, effective use of technologies, APIs, and functional completeness.</p>
+        </div>
+        <div class="rubric-card">
+          <div class="rubric-percentage">15%</div>
+          <h3>Problem Understanding</h3>
+          <p>Clarity in defining the root challenge, user persona analysis, and domain constraints awareness.</p>
+        </div>
+        <div class="rubric-card">
+          <div class="rubric-percentage">15%</div>
+          <h3>Scalability & Feasibility</h3>
+          <p>Viability for deployment at scale, cost feasibility, security considerations, and potential roadmap.</p>
+        </div>
+        <div class="rubric-card">
+          <div class="rubric-percentage">10%</div>
+          <h3>Demonstration & Presentation</h3>
+          <p>Effectiveness of the live prototype demo, articulate pitch, clear visual storytelling, and Q&A handling.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="faq-section" id="faq">
+      <div class="section-header">
+        <span class="badge-sub">// 08 • Help & Clarifications</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="tech-traditional-divider">
+          <span class="divider-line"></span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-glyph">❈</span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-line"></span>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Where do candidates complete registration?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Registrations can be completed directly through the official KonfHub portal: <a href="https://konfhub.com/an2026" target="_blank" class="accent-link">https://konfhub.com/an2026</a>. Teams of 1 to 4 members are eligible.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Who is organizing ARVIX NEXUS 2026?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>ARVIX NEXUS 2026 is an inspiring student initiative organized by students of <strong>Andhra University College of Engineering (AUCE)</strong>. It is hosted at <strong>AU North Campus, Andhra University, Visakhapatnam</strong>, and supported by ADMS E-Bike.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What are the proposed awards?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>The organizing committee may provide Cash prizes, officially recognized Certificates, and Internship opportunities with tech partners and startups. The final prize structure will depend upon sponsorships, institutional support, and the approved event budget.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>When will the guest and evaluation officials list be finalized?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Invitations to MeitY representatives, college administration patrons, and industry jury members are in progress. Confirmed names and speaking schedules will be updated once finalized.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What are the team size limits?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Teams can range from 1 to 4 participants. University/college students, independent developers, designers, and innovators across India are eligible to apply.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How can participants reach the student coordinators?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>You can write directly to the student organizers at <a href="mailto:arvixlabs@gmail.com" class="accent-link">arvixlabs@gmail.com</a> for registration queries, technical inquiries, or coordination.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Direct Inquiry Section -->
+    <section class="contact-section" id="contact">
+      <div class="section-header">
+        <span class="badge-sub">// 09 • Candidate Helpdesk</span>
+        <h2 class="section-title">Candidate & SPOC Contact Desk</h2>
+        <div class="tech-traditional-divider">
+          <span class="divider-line"></span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-glyph">🪔</span>
+          <span class="divider-circuit">◈</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="section-intro">Have a query regarding team registration, venue logistics at AU North Campus, or mentorship? We're here to help.</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Contact Information Cards -->
+        <div class="contact-cards-side">
+          <div class="contact-info-card">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h3>Official Contact Email</h3>
+              <p>For all candidate communications, queries & submissions:</p>
+              <a href="mailto:arvixlabs@gmail.com" class="email-highlight">
+                <i class="fa-solid fa-paper-plane"></i> arvixlabs@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon"><i class="fa-solid fa-link"></i></div>
+            <div>
+              <h3>Registration Link</h3>
+              <p>Verified link for candidate team registrations:</p>
+              <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="link-highlight">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> https://konfhub.com/an2026
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <div>
+              <h3>Organisers & Venue</h3>
+              <p><strong>Organisers:</strong> AUCE Student Initiative.</p>
+              <p><strong>Venue:</strong> AU North Campus, Andhra University, Visakhapatnam.</p>
+              <p><strong>Supported By:</strong> ADMS E-Bike.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Direct Message Form -->
+        <div class="contact-form-side">
+          <div class="form-header">
+            <h3>Candidate Inquiry Form</h3>
+            <p>Submitting this form prepares your message directly to <strong>arvixlabs@gmail.com</strong></p>
+          </div>
+          <form id="candidate-query-form" onsubmit="handleQuerySubmit(event)">
+            <div class="form-group">
+              <label for="c-name">Team Leader / Candidate Name</label>
+              <input type="text" id="c-name" required placeholder="e.g. Candidate Name" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="c-email">Contact Email</label>
+                <input type="email" id="c-email" required placeholder="candidate@college.edu.in" />
+              </div>
+              <div class="form-group">
+                <label for="c-phone">Phone / WhatsApp</label>
+                <input type="tel" id="c-phone" placeholder="+91 98765 43210" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c-event">Inquiry Category / Track</label>
+              <select id="c-event">
+                <option value="General Inquiry">General Candidate Inquiry</option>
+                <option value="Proposed Awards Inquiry">Proposed Awards & Prize Structure</option>
+                <option value="AI & Intelligent Systems">Track 1: AI & Intelligent Systems</option>
+                <option value="GovTech & Digital India">Track 2: GovTech & Digital India</option>
+                <option value="Cybersecurity & Digital Trust">Track 3: Cybersecurity & Digital Trust</option>
+                <option value="FinTech & Financial Inclusion">Track 4: FinTech & Financial Inclusion</option>
+                <option value="HealthTech & Healthcare Access">Track 5: HealthTech</option>
+                <option value="Sustainability & Smart Infra">Track 6: Sustainability & Smart Infra (ADMS)</option>
+                <option value="Open Innovation">Track 7: Open Innovation</option>
+                <option value="Venue & Logistics (AU North Campus)">Venue & Travel Queries (AU North Campus, Visakhapatnam)</option>
+                <option value="AUCE Student Coordination">AUCE Student Coordination</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="c-message">Your Message / Query</label>
+              <textarea id="c-message" rows="4" required placeholder="Type your inquiry or project question..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit-royal">
+              <i class="fa-solid fa-paper-plane"></i> Send to arvixlabs@gmail.com
+            </button>
+            <div id="form-feedback" class="form-feedback hidden"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sticky Mobile Action Bar -->
+  <aside class="mobile-sticky-bar">
+    <a href="mailto:arvixlabs@gmail.com" class="mob-btn-secondary">
+      <i class="fa-solid fa-envelope"></i> arvixlabs@gmail.com
+    </a>
+    <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="mob-btn-primary">
+      <i class="fa-solid fa-code"></i> Register Here
+    </a>
+  </aside>
+
+  <!-- Track Details Modal Dialog -->
+  <div class="modal-overlay" id="track-modal">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeTrackModal()" aria-label="Close dialog">&times;</button>
+      <div id="track-modal-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Royal Cyber Footer -->
+  <footer class="royal-footer">
+    <div class="footer-ornament-band">
+      <span>❁</span><span>🪔</span><span>ॐ</span><span>🪔</span><span>❁</span>
+    </div>
+    <div class="footer-main">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="logo-cyber-mandala" style="width:34px;height:34px;">
+            <div class="mandala-core" style="width:24px;height:24px;"></div>
+            <div class="mandala-symbol" style="font-size:1rem;"><i class="fa-solid fa-fire-flame-curved"></i></div>
+          </div>
+          <span class="foot-name">ARVIX NEXUS 2026</span>
+        </div>
+        <p><strong>National Innovation Hackathon & ARVIX Launch 2026</strong><br/>
+        Theme: <em>BUILD. INNOVATE. IMPACT.</em><br/>
+        Organised by <strong>AUCE Student Initiative</strong> at AU North Campus, Andhra University & supported by ADMS E-Bike.</p>
+        <p class="footer-registration-note">
+          Official Candidate Registration URL: <br/>
+          <a href="https://konfhub.com/an2026" target="_blank" rel="noopener noreferrer" class="foot-url">
+            https://konfhub.com/an2026
+          </a>
+        </p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#about">About & Initiative</a></li>
+          <li><a href="#tracks">Hackathon Tracks</a></li>
+          <li><a href="#awards">Proposed Awards</a></li>
+          <li><a href="#guests">Guests & Evaluation</a></li>
+          <li><a href="#agenda">24-Hour Agenda</a></li>
+          <li><a href="#judging">Judging Criteria</a></li>
+          <li><a href="#faq">Candidate FAQs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Direct Contact</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:arvixlabs@gmail.com">arvixlabs@gmail.com</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-link"></i>
+            <a href="https://konfhub.com/an2026" target="_blank">konfhub.com/an2026</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>AU North Campus, Visakhapatnam (Venue)</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-building-columns"></i>
+            <span>AUCE, Visakhapatnam (Student Initiative)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 ARVIX NEXUS. National Innovation Hackathon & ARVIX Launch. All rights reserved.</p>
+      <p class="tag-sanskrit">BUILD. INNOVATE. IMPACT. — AUCE Student Initiative.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
